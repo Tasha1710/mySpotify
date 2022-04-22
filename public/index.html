@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,7 +12,7 @@
     <title>MySpotify</title>
     <link rel="stylesheet" href="style.css" >
   </head>
-  <body>
+  <body class="body">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--Левое меню-->
@@ -32,33 +31,33 @@
       </div>
        <a href=""></a>
        <ul class="left_menu_list" >
-         <li class="left_menu_list_point"><a href="index.html"> 
-          <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 hDgDGI home-active-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 1.515a3 3 0 00-3 0L3 5.845a2 2 0 00-1 1.732V21a1 1 0 001 1h6a1 1 0 001-1v-6h4v6a1 1 0 001 1h6a1 1 0 001-1V7.577a2 2 0 00-1-1.732l-7.5-4.33z"></path></svg>
+         <li class="left_menu_list_point"><a class="left_menu_list_point_a" href="index.html"> 
+          <svg role="img" height="24" width="24" class="left_menu_list_point_svg" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 1.515a3 3 0 00-3 0L3 5.845a2 2 0 00-1 1.732V21a1 1 0 001 1h6a1 1 0 001-1v-6h4v6a1 1 0 001 1h6a1 1 0 001-1V7.577a2 2 0 00-1-1.732l-7.5-4.33z"></path></svg>
           Главная </a> </li>
-         <li class="left_menu_list_point"><a href="#"> 
-          <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 hDgDGI search-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M10.533 1.279c-5.18 0-9.407 4.14-9.407 9.279s4.226 9.279 9.407 9.279c2.234 0 4.29-.77 5.907-2.058l4.353 4.353a1 1 0 101.414-1.414l-4.344-4.344a9.157 9.157 0 002.077-5.816c0-5.14-4.226-9.28-9.407-9.28zm-7.407 9.279c0-4.006 3.302-7.28 7.407-7.28s7.407 3.274 7.407 7.28-3.302 7.279-7.407 7.279-7.407-3.273-7.407-7.28z"></path></svg> 
+         <li class="left_menu_list_point"><a class="left_menu_list_point_a" href="#"> 
+          <svg role="img" height="24" width="24" class="left_menu_list_point_svg" viewBox="0 0 24 24"><path fill="currentColor" d="M10.533 1.279c-5.18 0-9.407 4.14-9.407 9.279s4.226 9.279 9.407 9.279c2.234 0 4.29-.77 5.907-2.058l4.353 4.353a1 1 0 101.414-1.414l-4.344-4.344a9.157 9.157 0 002.077-5.816c0-5.14-4.226-9.28-9.407-9.28zm-7.407 9.279c0-4.006 3.302-7.28 7.407-7.28s7.407 3.274 7.407 7.28-3.302 7.279-7.407 7.279-7.407-3.273-7.407-7.28z"></path></svg> 
           Поиск</a> </li>
-         <li class="left_menu_list_point"><a href="#">
-          <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 hDgDGI collection-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M14.5 2.134a1 1 0 011 0l6 3.464a1 1 0 01.5.866V21a1 1 0 01-1 1h-6a1 1 0 01-1-1V3a1 1 0 01.5-.866zM16 4.732V20h4V7.041l-4-2.309zM3 22a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1zm6 0a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1z"></path></svg>
+         <li class="left_menu_list_point"><a class="left_menu_list_point_a" href="#">
+          <svg role="img" height="24" width="24" class="left_menu_list_point_svg" viewBox="0 0 24 24"><path fill="currentColor" d="M14.5 2.134a1 1 0 011 0l6 3.464a1 1 0 01.5.866V21a1 1 0 01-1 1h-6a1 1 0 01-1-1V3a1 1 0 01.5-.866zM16 4.732V20h4V7.041l-4-2.309zM3 22a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1zm6 0a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1z"></path></svg>
           Моя медиатека</a> </li>
        </ul>
        <!--кнопки создать плейлист-->
        <div class="left_menu_button">
-         <button class="left_menu_button_1">
+         <div class="left_menu_button_1">
            <span class="plus">
-          <svg role="img" height="12" width="12" aria-hidden="true" viewBox="0 0 16 16" class="Svg-sc-1bi12j5-0 hDgDGI"><path fill="currentColor" d="M15.25 8a.75.75 0 01-.75.75H8.75v5.75a.75.75 0 01-1.5 0V8.75H1.5a.75.75 0 010-1.5h5.75V1.5a.75.75 0 011.5 0v5.75h5.75a.75.75 0 01.75.75z"></path></svg> 
+             +
            </span>
-          Создать плейлист</button>
-         <button class="left_menu_button_1">
+          Создать плейлист</div>
+         <div class="left_menu_button_1">
           <span class="like">
             <svg role="img" height="12" width="12" aria-hidden="true" viewBox="0 0 16 16" class="Svg-sc-1bi12j5-0 hDgDGI"><path fill="currentColor" d="M15.724 4.22A4.313 4.313 0 0012.192.814a4.269 4.269 0 00-3.622 1.13.837.837 0 01-1.14 0 4.272 4.272 0 00-6.21 5.855l5.916 7.05a1.128 1.128 0 001.727 0l5.916-7.05a4.228 4.228 0 00.945-3.577z"></path></svg>             </span> 
-          Любимые треки</button>
+          Любимые треки</div>
        </div>
        <!--ссылки конфидецмальность и тд-->
        <div class="left_menu_cookie">
-         <a href="" target="_blank">Файлы cookie</a>
-         <a href="">Конфиденциальность</a>
-         <a href="">Форма для Ваших обращений</a>
+         <a class="left_menu_cookie_a" href="" target="_blank">Файлы cookie</a>
+         <a class="left_menu_cookie_a" href="">Конфиденциальность</a>
+         <a class="left_menu_cookie_a" href="">Форма для Ваших обращений</a>
        </div>
      </nav>
    </header>
@@ -82,44 +81,44 @@
      <!--Меню с плейлистами-->
      <div class="art">
        <section class="art_section"> 
-         <h2 class="art_h2_1">Музыка для заботы о себе</h2>
+         <div class="art_h2_1">Музыка для заботы о себе</div>
          <ul class="art_list">
            <li class="art_list_1">  
-            <img src="мир.jpg">
+            <img class="img" src="мир.jpg">
             <div>
-              <h4 class="art_h4">Peace</h4>
+              <div class="art_h4">Peace</div>
               <p class="art_p">Peaceful instrumentals to
                 help you keep calm.</p>
             </div>
            </li>
            <li class="art_list_1">  
-            <img src="breathe.jpg">
+            <img class="img" src="breathe.jpg">
             <div>
-              <h4 class="art_h4">Breathe</h4>
+              <div class="art_h4">Breathe</div>
               <p class="art_p">Take a deep breath and
                 relax.</p>
             </div>
            </li>
            <li class="art_list_1">  
-            <img src="Calming Choir.jpg">
+            <img class="img" src="Calming Choir.jpg">
             <div>
-              <h4 class="art_h4">Calming Choir</h4>
+              <div class="art_h4">Calming Choir</div>
               <p class="art_p">Relax to the calming
                 sounds of choral music.</p>
             </div>
            </li>
            <li class="art_list_1">  
-            <img src="Under the Stars.png">
+            <img class="img" src="Under the Stars.png">
             <div>
-              <h4 class="art_h4">Under the Stars</h4>
+              <div class="art_h4">Under the Stars</div>
               <p class="art_p">Drift off to sleep with
                 acoustic guitar.</p>
             </div>
            </li>
            <li class="art_list_1">  
-            <img src="Yoga Flow.png">
+            <img class="img" src="Yoga Flow.png">
             <div>
-              <h4 class="art_h4">Yoga Flow</h4>
+              <div class="art_h4">Yoga Flow</div>
               <p class="art_p">Global ambient with
                 percussion to soundtra…</p>
             </div>
@@ -127,42 +126,42 @@
          </ul>
        </section>
        <section class="art_section"> 
-        <h2 class="art_h2">Фокус</h2>
+        <div class="art_h2">Фокус</div>
         <p class="art_p1">Когда нужно сконцентрироваться.</p>
         <ul class="art_list">
           <li class="art_list_1">  
-            <img src="lofi beats.png">
+            <img class="img" src="lofi beats.png">
             <div>
-              <h4 class="art_h4">lofi beats</h4>
+              <div class="art_h4">lofi beats</div>
               <p class="art_p">Purrrr with beats to chill,
                 relax, study, code…</p>
             </div>
            </li>
           <li class="art_list_1">  
-            <img src="Максимальная концентрация.jpg">
+            <img class="img" src="Максимальная концентрация.jpg">
             <div>
-              <h4 class="art_h4">Максимальная ко...</h4>
+              <div class="art_h4">Максимальная ко...</div>
               <p class="art_p">Поможет сосредоточиться и держать фокус.</p>
             </div>
            </li>
           <li class="art_list_1">  
-            <img src="Рабочий баланс.jpg">
+            <img class="img" src="Рабочий баланс.jpg">
             <div>
-              <h4 class="art_h4">Рабочий баланс</h4>
+              <div class="art_h4">Рабочий баланс</div>
               <p class="art_p">Фокус и спокойствие на рабочем месте.</p>
             </div>
            </li>
           <li class="art_list_1">  
-            <img src="Погружение в учебу.png">
+            <img class="img" src="Погружение в учебу.png">
             <div>
-              <h4 class="art_h4">Погружение в учебу</h4>
+              <div class="art_h4">Погружение в учебу</div>
               <p class="art_p">Инструментал и классика для интенсивных...</p>
             </div>
            </li>
           <li class="art_list_1">  
-            <img src="Jazz Vibes.png">
+            <img class="img" src="Jazz Vibes.png">
             <div>
-              <h4 class="art_h4">Jazz Vibes</h4>
+              <div class="art_h4">Jazz Vibes</div>
               <p class="art_p">The original chill
                 instrumental beats…</p>
             </div>
@@ -170,164 +169,164 @@
         </ul>
       </section>
       <section class="art_section"> 
-        <h2 class="art_h2">Настроение</h2>
+        <div class="art_h2">Настроение</div>
         <p class="art_p1">Здесь найдется музыка для любого настроения.</p>
         <ul class="art_list">
           <li class="art_list_1">  
-            <img src="Жизнь прекрасна.png">
+            <img class="img" src="Жизнь прекрасна.png">
             <div>
-              <h4 class="art_h4">Жизнь прекрасна</h4>
+              <div class="art_h4">Жизнь прекрасна</div>
               <p class="art_p">Позитивные песни для отличного настроения.</p>
             </div>
            </li>
           <li class="art_list_1">  
-            <img src="Всё сложно.jpg">
+            <img class="img" src="Всё сложно.jpg">
             <div>
-              <h4 class="art_h4">Всё сложно</h4>
+              <div class="art_h4">Всё сложно</div>
               <p class="art_p">Для тех моментов, когда нет уверенности...</p>
             </div>
            </li>
           <li class="art_list_1">  
-            <img src="Хюгге.jpg">
+            <img class="img" src="Хюгге.jpg">
             <div>
-              <h4 class="art_h4">Хюгге</h4>
+              <div class="art_h4">Хюгге</div>
               <p class="art_p">Уютные треки, чтобы добавить тепла в...</p>
             </div>
            </li>
           <li class="art_list_1">  
-            <img src="плёнка.png">
+            <img class="img" src="плёнка.png">
             <div>
-              <h4 class="art_h4">плёнка</h4>
+              <div class="art_h4">плёнка</div>
               <p class="art_p">саундтрек твоих лучших снимков</p>
             </div>
            </li>
           <li class="art_list_1">  
-            <img src="Chill Tracks.png">
+            <img class="img" src="Chill Tracks.png">
             <div>
-              <h4 class="art_h4">Chill Tracks</h4>
+              <div class="art_h4">Chill Tracks</div>
               <p class="art_p">Softer kinda dance.</p>
             </div>
            </li>
         </ul>
       </section>
       <section class="art_section"> 
-        <h2 class="art_h2_1">Популярные релизы</h2>
+        <div class="art_h2_1">Популярные релизы</div>
         <ul class="art_list">
           <li class="art_list_1">  
-            <img src="Горгород.png">
+            <img class="img" src="Горгород.png">
             <div>
-              <h4 class="art_h4">Горгород</h4>
+              <div class="art_h4">Горгород</div>
               <p class="art_p">Oxxxymiron</p>
             </div>
            </li>
           
           <li class="art_list_1">  
-            <img src="Мелкаяс гитарой.png">
+            <img class="img" src="Мелкаяс гитарой.png">
             <div>
-              <h4 class="art_h4">Мелкаяс гитарой</h4>
+              <div class="art_h4">Мелкаяс гитарой</div>
               <p class="art_p">Алёна Швец</p>
             </div>
            </li>
            <li class="art_list_1">  
-            <img src="Five EP.jpg">
+            <img class="img" src="Five EP.jpg">
             <div>
-              <h4 class="art_h4">Five EP</h4>
+              <div class="art_h4">Five EP</div>
               <p class="art_p">Rickey F</p>
             </div>
            </li>
           <li class="art_list_1">  
-            <img src="Golden hits.jpg">
+            <img class="img" src="Golden hits.jpg">
             <div>
-              <h4 class="art_h4">Golden hits</h4>
+              <div class="art_h4">Golden hits</div>
               <p class="art_p">The Hatters</p>
             </div>
            </li>
           <li class="art_list_1">  
-            <img src="WITH RUSSIA FROM LOVE.jpg">
+            <img class="img" src="WITH RUSSIA FROM LOVE.jpg">
             <div>
-              <h4 class="art_h4">WITH RUSSIA FR...</h4>
+              <div class="art_h4">WITH RUSSIA FR...</div>
               <p class="art_p">Little Big</p>
             </div>
            </li>
         </ul>
       </section>
       <section class="art_section"> 
-        <h2 class="art_h2_1">Плейлисты для выходных</h2>
+        <div class="art_h2_1">Плейлисты для выходных</div>
         <ul class="art_list">
           <li class="art_list_1">  
-            <img src="Инди-сквот.png">
+            <img class="img" src="Инди-сквот.png">
             <div>
-              <h4 class="art_h4">Инди-сквот</h4>
+              <div class="art_h4">Инди-сквот</div>
               <p class="art_p">Актуальные хиты местной инди-сцены.</p>
             </div>
            </li>
           <li class="art_list_1">  
-            <img src="Танцевальные новинки.png">
+            <img class="img" src="Танцевальные новинки.png">
             <div>
-              <h4 class="art_h4">Танцевальные новинки</h4>
+              <div class="art_h4">Танцевальные новинки</div>
               <p class="art_p">Свежие танцевальные треки со всего мира...</p>
             </div>
            </li>
           <li class="art_list_1">  
-            <img src="Jazz for Autumn.png">
+            <img class="img" src="Jazz for Autumn.png">
             <div>
-              <h4 class="art_h4">Jazz for Autumn</h4>
+              <div class="art_h4">Jazz for Autumn</div>
               <p class="art_p">Jazz that captures the
                 essence of autumn.</p>
             </div>
            </li>
           <li class="art_list_1">  
-            <img src="Полный фреш.png">
+            <img class="img" src="Полный фреш.png">
             <div>
-              <h4 class="art_h4">Полный фреш</h4>
+              <div class="art_h4">Полный фреш</div>
               <p class="art_p">Топовые треки от главных героев фреш-...</p>
             </div>
            </li>
           <li class="art_list_1">  
-            <img src="Прокачка.png">
+            <img class="img" src="Прокачка.png">
             <div>
-              <h4 class="art_h4">Прокачка</h4>
+              <div class="art_h4">Прокачка</div>
               <p class="art_p">Мощный хип-хоп для интенсивного воркаута.</p>
             </div>
            </li>
         </ul>
       </section>
       <section class="art_section"> 
-        <h2 class="art_h2_1">Твой домашний саундтрек</h2>
+        <div class="art_h2_1">Твой домашний саундтрек</div>
         <ul class="art_list">
           <li class="art_list_1">  
-            <img src="Рабочий баланс.jpg">
+            <img class="img" src="Рабочий баланс.jpg">
             <div>
-              <h4 class="art_h4">Рабочий баланс</h4>
+              <div class="art_h4">Рабочий баланс</div>
               <p class="art_p">Фокус и спокойствие на рабочем месте.</p>
             </div>
            </li>
            <li class="art_list_1">  
-            <img src="Хюгге.jpg">
+            <img class="img" src="Хюгге.jpg">
             <div>
-              <h4 class="art_h4">Хюгге</h4>
+              <div class="art_h4">Хюгге</div>
               <p class="art_p">Уютные треки, чтобы добавить тепла в...</p>
             </div>
            </li>
            <li class="art_list_1">  
-            <img src="Максимальная концентрация.jpg">
+            <img class="img" src="Максимальная концентрация.jpg">
             <div>
-              <h4 class="art_h4">Максимальная ко...</h4>
+              <div class="art_h4">Максимальная ко...</div>
               <p class="art_p">Поможет сосредоточиться и держать фокус.</p>
             </div>
            </li>
            <li class="art_list_1">  
-            <img src="Jazz Vibes.png">
+            <img class="img" src="Jazz Vibes.png">
             <div>
-              <h4 class="art_h4">Jazz Vibes</h4>
+              <div class="art_h4">Jazz Vibes</div>
               <p class="art_p">The original chill
                 instrumental beats…</p>
             </div>
            </li>
            <li class="art_list_1">  
-            <img src="Chill Tracks.png">
+            <img class="img" src="Chill Tracks.png">
             <div>
-              <h4 class="art_h4">Chill Tracks</h4>
+              <div class="art_h4">Chill Tracks</div>
               <p class="art_p">Softer kinda dance.</p>
             </div>
            </li>
